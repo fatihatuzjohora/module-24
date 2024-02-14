@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="maimElement">
+        <section>
+          <h1 id="dom">Dom=document Object Model</h1>
+        <ul>
+          <h1 class="fruitlist">fruits</h1>          
+          <li>apple</li>
+          <li class="once">mango</li>
+          <li id="twoo">watermelon</li>
+        </ul>
+        </section>
+
+        <section id="section1Container">
+          <h1> paragraph</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente illo libero iusto dignissimos non, corporis consequatur accusantium tempora rerum cumque molestiae, quae incidunt doloremque rem. Mollitia accusantium assumenda sunt sed?
+        </section>
+
+        <section>
+<h1 id="shoplist">shopping</h1>
+        <ul id="shortli">
+            <li class="bag">bag</li>
+            <li>book</li>
+            <li>pen</li>
+        </ul>
+        </section>
+
+        <section class="module24 Useing">
+          <ul>
+            <h1> Module 24 note normali</h1>
+            <li>node & aliment ar moddhe ki parthokko MDN tke portbe hobe</li>
+            <li>age element take dhorte hobe,,,,than document.create('kono aliment/ tag/ text/ etc toire kora jai') </li>
+            <li> </li>
+            <li></li>
+            <li></li>
+          </ul>
+
+        </section>
+      </header>
+    </main>
+    <script src="index.js"></script>
+    <script> 
+
+    // console.log(document.body);
+    const allheading=document.getElementsByTagName('h1');
+    for (const h1 of allheading) {
+      // console.log(h1); 
+    }
+    
+    </script>
+  </body>
+</html>
